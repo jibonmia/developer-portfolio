@@ -2,14 +2,15 @@
 body{
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 800;
+  font-weight: 500;
   font-style: normal;
 }
-
+/* nav related style */
 nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-titel{
     color: black;
@@ -31,11 +32,23 @@ nav li a{
     text-decoration: none;
     color: #474747;
 }
-nav ul li button{
+.btn-primary{
     background-color: #FD6E0A;
     border-radius: 6px;
     border: none;
     color: white;
     padding: 18px 35px;
     font-size: 20px;
+}
+/* Header related style */
+.header{
+    background-color: #FFF8F3;
+}
+.banner{
+    margin: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.banner.profile-picture{
+    width: 500px;
 }
