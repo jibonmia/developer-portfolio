@@ -32,6 +32,7 @@ nav li a{
     text-decoration: none;
     color: #474747;
 }
+/* common share style */
 .btn-primary{
     background-color: #FD6E0A;
     border-radius: 6px;
@@ -40,15 +41,55 @@ nav li a{
     padding: 18px 35px;
     font-size: 20px;
 }
+.section-title{
+    color: #181818;
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+}
+.section-des{
+    color: #757575;
+    font-size: 18px;
+    text-align: center;
+}
 /* Header related style */
 .header{
     background-color: #FFF8F3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+background-position: bottom right;
 }
 .banner{
-    margin: 30px 30px 30px 150px;
+    margin: 30px 100px 0px 150px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 .banner.profile-picture{
     width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    font-size: 70px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+.banner-des{
+    margin-bottom: 20px;
+}
+.banner-content{
+    max-width: 500px;
+}
+/* main related style */
+/* About related style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+    margin: 130px 0;
 }
